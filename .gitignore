@@ -1,0 +1,11 @@
+# Garmin build outputs
+bin/
+*.prg
+*.iq
+*.debug.xml
+
+# macOS
+.DS_Store
+
+# VS Code workspace settings
+.vscode/
