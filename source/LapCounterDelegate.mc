@@ -1,7 +1,7 @@
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class lapCounter2_0Delegate extends WatchUi.BehaviorDelegate {
+class LapCounterDelegate extends WatchUi.BehaviorDelegate {
     
     var view;
 

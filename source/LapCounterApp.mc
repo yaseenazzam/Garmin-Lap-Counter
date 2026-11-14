@@ -2,7 +2,7 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class lapCounter2_0App extends Application.AppBase {
+class LapCounterApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -18,12 +18,12 @@ class lapCounter2_0App extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        var view = new lapCounter2_0View();
-        return [ view, new lapCounter2_0Delegate(view) ];
+        var view = new LapCounterView();
+        return [ view, new LapCounterDelegate(view) ];
     }
 
 }
 
-function getApp() as lapCounter2_0App {
-    return Application.getApp() as lapCounter2_0App;
+function getApp() as LapCounterApp {
+    return Application.getApp() as LapCounterApp;
 }

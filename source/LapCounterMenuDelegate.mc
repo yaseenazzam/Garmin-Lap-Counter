@@ -2,7 +2,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
-class lapCounter2_0MenuDelegate extends WatchUi.MenuInputDelegate {
+class LapCounterMenuDelegate extends WatchUi.MenuInputDelegate {
 
     function initialize() {
         MenuInputDelegate.initialize();

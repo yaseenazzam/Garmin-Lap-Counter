@@ -1,7 +1,7 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 
-class lapCounter2_0View extends WatchUi.View {
+class LapCounterView extends WatchUi.View {
 
     var lapcount = 0;
     
